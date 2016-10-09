@@ -1,0 +1,108 @@
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .logo {
+    margin-left: 13px !important; }
+
+  .menu {
+    margin-right: 13px !important; } }
+@media screen and (min-width: 768px) {
+  .contentAside {
+    width: 197px;
+    height: 970px; } }
+* {
+  margin: 0px;
+  padding: 0px; }
+
+header, nav {
+  max-width: 768px;
+  min-width: 320px;
+  height: 54px;
+  background-color: #08a8dd;
+  margin: 0 auto; }
+
+.textHeader {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  max-width: 768px;
+  min-width: 320px;
+  height: 54px;
+  background-color: #08a8dd;
+  margin: 0 auto; }
+
+.logo {
+  font-family: "firasansmedium", sans-serif;
+  font-size: 140%;
+  color: white;
+  float: left;
+  margin-left: 24px; }
+
+.menu {
+  color: white;
+  font-family: "firasanslight", sans-serif;
+  float: right;
+  margin: inherit;
+  margin-right: 24px;
+  text-decoration: underline; }
+
+.fatherBox {
+  max-width: 768px;
+  min-width: 320px;
+  margin: 0 auto; }
+
+#boxSection {
+  margin: 0 auto;
+  max-width: 768px;
+  float: left;
+  -webkit-transition: width 0s;
+  transition: width 0s; }
+  #boxSection.clicked {
+    max-width: 571px; }
+
+.contentButton {
+  max-width: 768px;
+  min-width: 320px;
+  margin: 0 auto;
+  text-align: center; }
+
+.contentArticle {
+  margin-left: 24px;
+  margin-right: 16px;
+  font-family: "firasanslight", sans-serif; }
+
+.content {
+  margin-top: 14px;
+  font-size: 275%; }
+
+.textArticle {
+  margin-bottom: 23px;
+  font-size: 105%; }
+
+.toogleSidebar {
+  font-family: "firasansmedium", sans-serif;
+  font-size: 105%;
+  width: 170px;
+  height: 34px;
+  color: white;
+  background-color: #52bb55;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 51px; }
+
+.contentAside {
+  display: none;
+  background-color: #3b4549;
+  color: white;
+  font-family: "firasanslight", sans-serif;
+  float: left;
+  min-width: 197px;
+  min-height: 196px; }
+
+.sidebar {
+  margin-top: 24.5px;
+  font-size: 190%; }
+
+.marginAside {
+  margin-left: 16px;
+  margin-right: 24px; }
+
+/*# sourceMappingURL=style.css.map */
